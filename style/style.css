@@ -79,7 +79,7 @@ body {
     
 }
 #head p{
-    margin-left:-65px;
+    margin-left:-45px;
     
 }
 #head:hover{
@@ -155,30 +155,34 @@ a{
     border-bottom: none;
 }
 .hide{
-  opacity: 0;
+    opacity: 0;
     transition: 0.2s linear;
 }
 .triangle{
   position:absolute;   
-width: 0;
-height: 0;
-       margin-right: -25px;
-  margin-top:-10px;
-  margin-left:250px;
-border-style: solid;
-border-width: 0 15px 17.3px 15px;
-border-color: transparent transparent #fff transparent;
+    width: 0;
+    height: 0;
+    margin-right: -25px;
+    margin-top:-10px;
+    margin-left:237px;
+    border-style: solid;
+    border-width: 0 15px 17.3px 15px;
+    border-color: transparent transparent #fff transparent;
 }
 #arrow{
-    margin-right: -15px;
+    
     transition: 0.2s linear;
+    font-size:   25px;
 }
+
 .rotateDown{
+    
     transition: 0.2s linear;
     transform: rotate(180deg);
     
 }
 .rotateUp{
+     
     transform: rotate(-180deg);
     transition: 0.2s linear;
 }
