@@ -28,16 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-    background-color: black;
-    color: #555;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-     font-family: sans-serif;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -53,8 +44,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
+/* user styles */
+body {
+	line-height: 1;
+    background-color: black;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     font-family: sans-serif;
+}
 
 
 .hamburger{
@@ -130,7 +130,8 @@ a{
     height: 50px;
    color: #555;
     border-left: 4px white solid;
-    font-size: 15px;
+    font-size: 20px;
+     border-bottom: 1px solid #555;
    
 }
 
@@ -149,10 +150,7 @@ a{
   transition: 0.2s;
     
 }
-#openDropDown a{
-    border-bottom: 1px solid #555;
- 
-}
+
 #openDropDown a:last-child{
     border-bottom: none;
 }
